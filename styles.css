@@ -107,7 +107,7 @@ b {
 }
 
 #welcome-title {
-  font-size: 7rem;
+  font-size: 10vh;
   font-weight: 900;
   letter-spacing: -5px;
   animation: fade-in 1s, glow 5s
