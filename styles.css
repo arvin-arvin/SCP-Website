@@ -1,0 +1,240 @@
+nav {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white
+}
+
+#name, #password{
+  background: transparent;
+  outline: none;
+  color: white;
+  width: 100%;
+  transition: all 0.2s ease-out
+}
+
+#welcome {
+  font-size: 7rem;
+  font-weight: 900;
+  letter-spacing: -5px;
+  animation: fade 2.5s;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#bottom-cards {
+  background-color: rgb(22, 22, 22);
+  animation: fade-in 1s;
+  padding: 1rem;
+}
+
+#name:hover, #password:hover{
+  width: 105%
+}
+
+#name:focus, #password:focus{
+  border: 2px solid white;
+}
+
+#main {
+  align-items: center;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+
+#submitBtn {
+  background-color: black;
+  color: white;
+  width: 20%;
+  transition: all 0.3s ease-out;
+  padding: 0.2rem;
+}
+
+#submitBtn:hover{
+  font-weight:900;
+  width: 25%
+}
+
+#submitBtn:active{
+  background: white;
+  color: black;
+}
+
+h1{
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: rgb(228, 226, 224);
+  color: black;
+}
+
+h2{
+  letter-spacing: 3px;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+    font-family: "Fragment Mono", monospace;
+    color: white
+    
+}
+
+b {
+  letter-spacing: 0.13rem;
+}
+
+#logo {
+  animation: fade-in 1s, glow 5s;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes glow {
+ 0% {filter: drop-shadow(0 0 0rem rgb(255, 255, 255))}
+ 50% {filter: drop-shadow(0 0 3rem rgb(255, 255, 255))}
+ 100% {filter: drop-shadow(0 0 0rem rgb(255, 255, 255))}
+}
+
+#welcome-title {
+  font-size: 7rem;
+  font-weight: 900;
+  letter-spacing: -5px;
+  animation: fade-in 1s, glow 5s
+}
+
+.navbar-brand:hover{
+  font-weight: 200;
+
+}
+
+.navbar-brand{
+  transition: font-weight 0.3s ease-out;
+  border: none;
+}
+
+
+#side-text{
+  color: rgb(168, 168, 168);
+  font-size: 0.75rem;
+}
+
+#side-text-title{
+  font-size: 0.75rem;
+}
+
+#center-text {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+#center-text-bold {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+#card-main-title {
+  font-size: 2rem;
+}
+
+.navbar-nav{
+  text-align: right;
+}
+
+.col-right {
+  background-color: rgb(29, 29, 29);
+}
+
+#col{
+  border-radius: 5px;
+  border: 1px transparent white;
+}
+
+#object{
+  color: black
+}
+
+#euclid {
+  color: red 
+}
+
+#here {
+  border: 1px solid #8dd5ff;
+}
+
+#title {
+  font-size: 5rem;
+}
+
+#objClass {
+  background: rgb(255, 255, 255);
+  border-left: solid 1rem red;
+  letter-spacing: 3px;
+}
+
+#objClassSafe {
+  background: rgb(255, 255, 255);
+  border-left: solid 1rem rgb(13, 151, 13);
+  letter-spacing: 3px;
+}
+
+#safe {
+  color: rgb(13, 151, 13);
+}
+
+a.fancy-underline {
+  text-decoration: none;
+  display: inline-block;
+  color: #8dd5ff;
+  outline: 0;
+}
+
+a.fancy-underline span {
+  position: relative;
+}
+
+a.fancy-underline span::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+a.fancy-underline:hover span::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+a:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+a:focus-visible {
+  outline: 1px solid #005fec;
+  outline-offset: 2px;
+}
+
+#object1 {
+ color: rgb(138, 138, 138)
+}
+
+#object2 {
+  color: rgb(66, 66, 66)
+}
